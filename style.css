@@ -14,13 +14,14 @@ h1{
 }
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .eye{
     background-color: rgb(230, 230, 230);
     width: 40vh;
     height: 70vh;
     border-radius: 50px;
+    margin: 0 50px;
 }
 
 .in{
