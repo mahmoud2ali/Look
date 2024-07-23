@@ -19,8 +19,8 @@ h1{
 .eye{
     background-color: rgb(230, 230, 230);
     width: 40vh;
-    height: 70vh;
-    border-radius: 50px;
+    height: 60vh;
+    border-radius: 60px;
     margin: 0 50px;
 }
 
@@ -41,4 +41,28 @@ h1{
     100%{
         transform: translate(50px, 0);
     }
+}
+
+
+@media (max-width: 700px)
+{
+    .eye{
+        width: 35vh;
+        height: 50vh;
+        border-radius: 60px;
+        margin: 0 50px;
+    }
+
+
+    .in{
+        background-color: #222;
+        width: 8vh;
+        height: 9vh;
+        border-radius: 60px;
+        display: flex;
+        margin: 50% 30%;
+        animation: move 1s linear infinite alternate;
+    }
+    
+    
 }
